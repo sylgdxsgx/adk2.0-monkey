@@ -1,0 +1,74 @@
+:Monkey: seed=1 count=3
+:AllowPackage: com.mpr.mprepubreader
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.lenovo.leos.appstore.ui.Loft (from package com.lenovo.leos.appstore)
+//   - NOT USING main activity com.lenovo.ideafriend.alias.callLogsActivity (from package com.lenovo.ideafriend)
+//   - NOT USING main activity com.lenovo.ideafriend.alias.DialtactsActivity (from package com.lenovo.ideafriend)
+//   - NOT USING main activity com.lenovo.ideafriend.alias.PeopleActivity (from package com.lenovo.ideafriend)
+//   - NOT USING main activity com.lenovo.ideafriend.alias.MmsActivity (from package com.lenovo.ideafriend)
+//   - NOT USING main activity com.lenovo.launcher.Launcher (from package com.lenovo.launcher)
+//   - NOT USING main activity com.lenovo.music.ui.LeAppLoadingActivity (from package com.lenovo.music)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.lenovo.vctl.weaver.phone.activity.WeaverRoot (from package com.lenovo.videotalk.phone)
+//   - NOT USING main activity com.android.gallery3d.app.Gallery (from package com.lenovo.scgmtk)
+//   - NOT USING main activity com.android.camera.CameraLauncher (from package com.lenovo.scgmtk)
+//   - NOT USING main activity com.lenovo.calendar.SplashActivity (from package com.lenovo.calendar)
+//   - NOT USING main activity com.android.soundrecorder.SoundRecorder (from package com.android.soundrecorder)
+//   - NOT USING main activity com.lenovo.android.settings.tether.TetherSettings (from package com.lenovo.android.settings.tether)
+//   - NOT USING main activity com.iflytek.inputmethod.LauncherActivity (from package com.iflytek.inputmethod)
+//   - NOT USING main activity com.lenovo.FileBrowser.activities.FileBrowserMain (from package com.lenovo.FileBrowser)
+//   - NOT USING main activity com.lenovo.game.phone.introduce.IntroduceActivtiy (from package com.lenovo.gameworldphone)
+//   - NOT USING main activity com.lenovo.browser.BrowserActivity (from package com.lenovo.browser)
+//   - NOT USING main activity com.lenovo.ota.ui.MainActivity (from package com.lenovo.ota)
+//   - NOT USING main activity com.lenovo.powercenter.ui.SplashActivity (from package com.lenovo.powercenter)
+//   - NOT USING main activity com.lenovo.safecenter.MainTab.SplashActivity (from package com.lenovo.safecenter)
+//   - NOT USING main activity com.lenovo.leos.cloud.sync.common.activity.SplashScreenActivity (from package com.lenovo.leos.cloud.sync)
+//   - NOT USING main activity com.lenovo.themecenter.LoadingActivity (from package com.lenovo.themecenter)
+//   - NOT USING main activity com.lenovo.leos.lenovoservicesetting.activitys.FirstStepActivity (from package com.lenovo.leos.lenovoservicesetting)
+//   - NOT USING main activity com.lenovo.anyshare.ApMainActivity (from package com.lenovo.anyshare)
+//   - NOT USING main activity com.lenovo.calculator.Calculator (from package com.lenovo.calculator)
+//   - NOT USING main activity com.lenovo.deskclock.DeskClock (from package com.lenovo.deskclock)
+//   - NOT USING main activity com.lenovo.fm.RadioActivity (from package com.lenovo.fm)
+//   - NOT USING main activity com.lenovo.lenovosearch.SearchActivity (from package com.lenovo.lenovosearch)
+//   - NOT USING main activity com.lenovo.service.LaunchActivity (from package com.lenovo.service)
+//   - NOT USING main activity com.lenovo.videoplayer.VideoPlayerActivity (from package com.lenovo.videoplayer)
+//   - NOT USING main activity com.lenovo.onekeylock.OneKeyLockActivity (from package com.lenovo.onekeylock)
+//   - NOT USING main activity com.lenovo.supernote.activity.WelcomeActivity (from package com.lenovo.supernote)
+//   - NOT USING main activity com.lenovo.PlayersTutorial.PlayersTutorialActivity (from package com.lenovo.PlayersTutorial)
+//   - NOT USING main activity com.baidu.browser.framework.BdBrowserActivity (from package com.baidu.browser.apps)
+//   - NOT USING main activity com.iflytek.vflynote.SpeechWelcome (from package com.iflytek.vflynote)
+//   - NOT USING main activity com.mpr.codescanner.CaptureActivity (from package com.mpr.isliscanner)
+//   - NOT USING main activity com.mpr.mprisliscanner.MainActivity (from package com.mpr.mprisliscanner)
+//   - NOT USING main activity io.appium.unlock.Unlock (from package io.appium.unlock)
+//   - NOT USING main activity io.appium.settings.Settings (from package io.appium.settings)
+//   + Using main activity com.mpr.mprepubreader.activity.SplashActivity (from package com.mpr.mprepubreader)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.lenovo.launcher.Launcher (from package com.lenovo.launcher)
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+// Seeded: 1
+// Event percentages:
+//   0: 50.0%
+//   1: 5.8823533%
+//   2: 1.1764706%
+//   3: 8.82353%
+//   4: -0.0%
+//   5: 14.705883%
+//   6: 8.82353%
+//   7: 1.1764706%
+//   8: 1.1764706%
+//   9: 0.5882353%
+//   10: 7.647059%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.mpr.mprepubreader/.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.mpr.mprepubreader/.activity.SplashActivity } in package com.mpr.mprepubreader
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(487.0,713.0)
+:Sending Touch (ACTION_UP): 0:(482.13757,697.72205)
+Events injected: 3
+:Sending rotation degree=0, persist=false
+    // Allowing start of Intent { cmp=com.mpr.mprepubreader/.activity.BookCategorySubBrowseActivity } in package com.mpr.mprepubreader
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=1105ms (0ms mobile, 0ms wifi, 1105ms not connected)
+// Monkey finished
